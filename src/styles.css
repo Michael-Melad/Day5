@@ -1,1 +1,59 @@
-/* You can add global styles to this file, and also import other style files */
+/* تحسين المظهر */
+.todo-container {
+    width: 50%;
+    margin: 30px auto;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+  
+  /* العنوان مع الخلفية */
+  .todo-header {
+    background-color: #007bff;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  /* تحسين إدخال المهمة */
+  .todo-input {
+    width: 75%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+  
+  /* تحسين زر الإضافة */
+  .add-btn {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .add-btn:hover {
+    background-color: #218838;
+  }
+  
+  /* تنسيق قائمة المهام */
+  .todo-list {
+    padding: 20px;
+  }
+  
+  .todo-item {
+    background: white;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  

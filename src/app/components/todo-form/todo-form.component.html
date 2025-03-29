@@ -1,0 +1,15 @@
+<!-- <div class="todo-form">
+  <input [(ngModel)]="task" placeholder="Enter task..." />
+  <button (click)="addTask()"> + Add</button>
+</div> -->
+
+
+<div class="todo-container">
+  <div class="todo-header">
+    To-Do App!
+  </div>
+  <div class="todo-body p-3 text-center">
+    <input type="text" placeholder="Enter new task" class="todo-input" [(ngModel)]="newTask">
+    <button class="add-btn" (click)="addTask()">Add</button>
+  </div>
+</div>

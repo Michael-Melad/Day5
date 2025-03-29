@@ -1,0 +1,7 @@
+<div class="todo-wrapper">
+  <app-todo-form (newTask)="addTodo($event)"></app-todo-form>
+  <app-todo-list [tasks]="todos"(deleteTask)="deleteTodo($event)">
+  </app-todo-list>
+</div>
+
+
